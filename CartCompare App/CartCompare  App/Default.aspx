@@ -18,10 +18,28 @@
         <div>
         </div>
             <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" Font-Size="XX-Large" Text="WELCOME to the app that helps you save more !!!"></asp:Label>
-            <asp:Button ID="nextButton" runat="server" Font-Bold="True" Height="33px" Text="NEXT" Width="164px" CssClass ="myButton"/>
         </div>
-    </form>
     <p>
         &nbsp;</p>
-</body>
+        <table style="width:100%;">
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style1">
+                    <asp:Button ID="Button1" runat="server" Height="34px" Text="Next" Width="121px" />
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+    </body>
 </html>
