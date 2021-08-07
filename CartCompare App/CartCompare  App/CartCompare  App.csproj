@@ -67,6 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\clients.mdf" />
+    <Content Include="App_Data\clients_log.ldf">
+      <DependentUpon>clients.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\ConsumerDB.mdf" />
+    <Content Include="App_Data\ConsumerDB_log.ldf">
+      <DependentUpon>ConsumerDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Cart.aspx" />
     <Content Include="Checkers.aspx" />
     <Content Include="Default.aspx" />
