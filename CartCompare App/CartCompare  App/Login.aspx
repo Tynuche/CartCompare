@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background-image: url('Image/WhatsApp Image 2021-08-06 at 16.03.31.jpeg')">
 <head runat="server">
     <title></title>
     <style type="text/css">
@@ -116,7 +116,6 @@
             </tr>
         </table>
         <div class="auto-style10">
-            <asp:Image ID="Image1" runat="server" Height="135px" ImageUrl="~/Image/WhatsApp Image 2021-08-06 at 16.03.31.jpeg" Width="182px" />
         </div>
     </form>
 </body>
