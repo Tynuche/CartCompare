@@ -42,13 +42,13 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// TextBox2 control.
+        /// regNameTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox regNameTbx;
 
         /// <summary>
         /// Label4 control.
@@ -60,13 +60,13 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// TextBox3 control.
+        /// regSurnameTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox regSurnameTbx;
 
         /// <summary>
         /// Label5 control.
@@ -78,13 +78,22 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// TextBox4 control.
+        /// regEmailTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox regEmailTbx;
+
+        /// <summary>
+        /// RegularExpressionValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
         /// <summary>
         /// Label6 control.
@@ -96,13 +105,13 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// TextBox5 control.
+        /// regPasswordTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox regPasswordTbx;
 
         /// <summary>
         /// Label7 control.
@@ -114,22 +123,31 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// TextBox6 control.
+        /// regConfirmTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox regConfirmTbx;
 
         /// <summary>
-        /// Button1 control.
+        /// errorLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Label errorLbl;
+
+        /// <summary>
+        /// regBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button regBtn;
 
         /// <summary>
         /// Image1 control.

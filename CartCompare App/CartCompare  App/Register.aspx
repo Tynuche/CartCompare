@@ -75,7 +75,7 @@
                     </td>
                     <td class="auto-style1">
                         <br />
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="regNameTbx" runat="server"></asp:TextBox>
                         <br />
                     </td>
                     <td class="auto-style1">&nbsp;</td>
@@ -86,7 +86,7 @@
                     </td>
                     <td class="auto-style1">
                         <br />
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="regSurnameTbx" runat="server"></asp:TextBox>
                         <br />
                     </td>
                     <td class="auto-style1">&nbsp;</td>
@@ -99,7 +99,8 @@
                     </td>
                     <td class="auto-style2">
                         <br />
-                        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="regEmailTbx" runat="server"></asp:TextBox>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="regEmailTbx" ErrorMessage="please use this format : email@gmail.com" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                         <br />
                     </td>
                     <td class="auto-style2"></td>
@@ -110,7 +111,7 @@
                     </td>
                     <td class="auto-style1">
                         <br />
-                        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="regPasswordTbx" runat="server"></asp:TextBox>
                         <br />
                     </td>
                     <td class="auto-style1">&nbsp;</td>
@@ -121,7 +122,8 @@
                     </td>
                     <td class="auto-style2">
                         <br />
-                        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="regConfirmTbx" runat="server"></asp:TextBox>
+                        <asp:Label ID="errorLbl" runat="server"></asp:Label>
                         <br />
                     </td>
                     <td class="auto-style2"></td>
@@ -134,7 +136,7 @@
                 <td class="auto-style9">
                     <br />
                     <br />
-                    <asp:Button ID="Button1" runat="server" Height="34px" Text="Register" Width="110px" />
+                    <asp:Button ID="regBtn" runat="server" Height="34px" Text="Register" Width="110px" OnClick="regBtn_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

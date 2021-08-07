@@ -49,7 +49,7 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td class="auto-style3">
-                        <asp:Label ID="Label3" runat="server" CssClass="auto-style8" Text="Login"></asp:Label>
+                        <asp:Label ID="loginLbl" runat="server" CssClass="auto-style8" Text="Login"></asp:Label>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -101,7 +101,7 @@
             <tr>
                 <td class="auto-style6"></td>
                 <td class="auto-style7">
-                    <asp:Button ID="Button1" runat="server" CssClass="auto-style8" Height="55px" Text="login" Width="157px" />
+                    <asp:Button ID="loginBtn" runat="server" CssClass="auto-style8" Height="55px" Text="login" Width="157px" OnClick="loginBtn_Click" />
                 </td>
                 <td class="auto-style6"></td>
             </tr>
@@ -109,7 +109,7 @@
                 <td>&nbsp;</td>
                 <td class="auto-style3">
                     <br />
-                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style9">Register</asp:HyperLink>
+                    <asp:HyperLink ID="regLink" runat="server" CssClass="auto-style9" ForeColor="Black" NavigateUrl="~/Register.aspx">Register</asp:HyperLink>
                     <br />
                 </td>
                 <td>&nbsp;</td>

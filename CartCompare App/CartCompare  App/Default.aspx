@@ -30,7 +30,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td class="auto-style1">
-                    <asp:Button ID="Button1" runat="server" Height="34px" Text="Next" Width="121px" />
+                    <asp:Button ID="nextButton" runat="server" Height="34px" Text="Next" Width="121px" OnClick="Button1_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>

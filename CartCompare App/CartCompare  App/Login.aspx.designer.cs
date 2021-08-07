@@ -24,13 +24,13 @@ namespace CartCompare__App
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label3 control.
+        /// loginLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label loginLbl;
 
         /// <summary>
         /// Label1 control.
@@ -69,21 +69,21 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.TextBox passwordTxtBx;
 
         /// <summary>
-        /// Button1 control.
+        /// loginBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button loginBtn;
 
         /// <summary>
-        /// HyperLink1 control.
+        /// regLink control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.HyperLink regLink;
     }
 }
