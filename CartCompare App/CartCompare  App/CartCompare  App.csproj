@@ -67,7 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cart.aspx" />
+    <Content Include="Checkers.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="picnpay.aspx" />
+    <Content Include="homePage.aspx" />
     <Content Include="Image\WhatsApp Image 2021-08-06 at 16.03.31.jpeg" />
     <Content Include="Login.aspx" />
     <Content Include="myStyleSheet.css" />
@@ -75,12 +79,40 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Checkers.aspx.cs">
+      <DependentUpon>Checkers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Checkers.aspx.designer.cs">
+      <DependentUpon>Checkers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="picnpay.aspx.cs">
+      <DependentUpon>picnpay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="picnpay.aspx.designer.cs">
+      <DependentUpon>picnpay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homePage.aspx.cs">
+      <DependentUpon>homePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homePage.aspx.designer.cs">
+      <DependentUpon>homePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

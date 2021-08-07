@@ -11,7 +11,7 @@ namespace CartCompare__App
 {
 
 
-    public partial class Login
+    public partial class HomePage
     {
 
         /// <summary>
@@ -24,15 +24,6 @@ namespace CartCompare__App
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
-
-        /// <summary>
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -40,15 +31,6 @@ namespace CartCompare__App
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
-        /// usertxt control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox usertxt;
 
         /// <summary>
         /// Label2 control.
@@ -60,13 +42,22 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// passwordTxtBx control.
+        /// TextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordTxtBx;
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+
+        /// <summary>
+        /// ListBox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListBox ListBox1;
 
         /// <summary>
         /// Button1 control.
@@ -78,12 +69,12 @@ namespace CartCompare__App
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// HyperLink1 control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLink1;
+        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }
